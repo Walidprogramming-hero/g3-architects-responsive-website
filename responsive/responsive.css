@@ -16,6 +16,11 @@
     .out-future{
         margin-left: 20px;
     }
+    .fact-card-session{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        gap: 24px;
+    }
 }
 /* medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
