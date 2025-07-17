@@ -6,4 +6,23 @@
     .nav-links{
         flex-direction: column;
     }
+    .tems{
+        flex-direction: column;
+    }
+    .tems-img-continer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .out-future{
+        margin-left: 20px;
+    }
+}
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .tems{
+        flex-direction: column;
+    }
+    .out-future{
+        margin: 50px auto;
+    }
 }
