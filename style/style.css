@@ -149,4 +149,25 @@
     margin-top: 10px;
  }
  /* some-facts-session-continer ends */
-
+/* Sponspors-session-continer starts */
+.sponspors-content{
+    max-width: 542px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponspors-company-area{
+    margin: 200px auto;
+}
+.sponspors-company{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sponspors-company img{
+    filter: saturate(100%);
+}
+/* Sponspors-session-continer ends */
+/* footer session starts */
+.footer-description{
+    text-align: center;
+    padding: 25px;
+}

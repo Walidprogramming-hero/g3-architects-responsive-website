@@ -20,14 +20,34 @@
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
         gap: 24px;
-    }
+}
+
+.sponspors-company{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    gap: 25px;
+}
 }
 /* medium device */
+.lili{
+    border-radius: 10px;
+}
 @media screen and (min-width:576px) and (max-width:992px) {
     .tems{
         flex-direction: column;
     }
     .out-future{
         margin: 50px auto;
+    }
+    .fact-card-session{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+    .sponspors-company{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        gap: 15px;
     }
 }
