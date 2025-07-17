@@ -1,0 +1,9 @@
+/* mobile device */
+@media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+}
